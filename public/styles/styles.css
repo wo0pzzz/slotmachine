@@ -1,0 +1,64 @@
+body {
+    background-image: url('/casino_background.jpg');
+}
+
+.wrapper {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #717171;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: RGBA(255, 255, 255, 0.5);
+}
+
+.machine {
+    position: relative;
+}
+
+.machine table {
+    width: 100%;
+    height: 300px;
+}
+
+.item {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 20px;
+    float: left;
+}
+
+.buttons {
+    margin-top: 20px;
+    float: right;
+}
+
+#playbtn {
+    cursor: pointer;
+    padding: 20px;
+}
+
+.line-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.svgline {
+    stroke-width:2
+}
+
+.svglines {
+    display: none;
+}
+
+.win-text {
+    margin-top: 10px;
+    display: none;
+}
